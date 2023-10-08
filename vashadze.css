@@ -9,7 +9,7 @@
   width: 100%;
   height: 40px;
   display: flex;
-  align-items: center;
+  agn-items: center;
 
 }
 
@@ -22,10 +22,42 @@
   font-weight: bold;
   padding-left: 0.5%;
 }
-.container-convert{
+.container-header{
+  display: flex;
+  agn-items: center;
+
+}
+
+.navbar{
+  background-color: #f5f4ea!important;
+  border-radius: 16px!important;
+
+}
+.container-nav{
+  background: #f5f4ea!important;
+
+}
+.container-btn{
+  background:#425325;
+  border-radius: 15px;
+  color: white;
+  width: 200px;
+  height: 70px;
+  font-size: 12px;
+}
+.text-center {
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    color: white;
+    font-size: 40PX;
+}
+ .container-convert{
   padding-left: 2%;
   display: flex;
-  align-items: center;
+  agn-items: center;
 
 }
 .container-convert span{
@@ -36,26 +68,21 @@
 
 .container-soc{
   display: flex;
-  align-items:flex-end;
+  agn-items:flex-end;
   justify-content: flex-end;
-  margin-left: 40%;
+  margin-left: 35%;
   padding: 10px;
 
 }
 
-.container-line{
+.container-ne{
   width: 100%;
-  border: 1px solid #dcae69;
+  border: 1px sod #dcae69;
 }
-header{
-  background: #f5f4ea;
-  border-radius: 0px  0px 30px 30px ;
-  display: flex;
-  align-items: center;
-}
+
 .container-phito{
   display: block;
-  text-align: center;
+  text-agn: center;
   color: #a8b183;
   font-weight: bolder;
   font-size: 12px;
@@ -71,7 +98,7 @@ header{
 }
 .container-header{
   display: flex;
-  align-items: center;
+  agn-items: center;
   justify-content: center;
   padding-left: 2%;
 }
@@ -81,15 +108,10 @@ header{
 .container-text-vashadze-1{
   padding-right: 10px;
 }
-ul{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  list-style: none;
-  padding: 20px;
-}
+
 li{
-  padding: 20px;
+  padding: 5px;
+margin-left: 5;
   color: #425325;
   font-weight: bolder;
 }
@@ -131,7 +153,7 @@ li{
   color: #425325;
   padding: 10px 20px;
   border-radius: 10px;
-  border: solid 2px  #425325;
+  border: sod 2px  #425325;
   cursor: pointer;
   margin-top: 20px;
   height: 50px;
@@ -153,8 +175,8 @@ li{
   padding-left: 20%;
   padding-top: 5%;
 }
-.container-line2{
-  border: 1px solid #dcae69;
+.container-ne2{
+  border: 1px sod #dcae69;
   margin-left: 20%;
   margin-right: 13%;
   margin-top: 1%;
@@ -169,7 +191,7 @@ li{
 }
 .container-cure{
   display: flex;
-  align-items: center;
+  agn-items: center;
   justify-content: center;
 
 }
@@ -192,7 +214,7 @@ li{
 }
 .cures-img{
   display:flex;
-  align-items: center;
+  agn-items: center;
   justify-content: center;
   padding: 20px;
 
@@ -208,9 +230,9 @@ li{
   border-radius: 16px;
   width: 330px;
   height: 310px;
-  align-items: center;
+  agn-items: center;
   justify-content: center;
-  text-align: center;
+  text-agn: center;
   margin-left: 7%;
 
 }
@@ -220,9 +242,9 @@ li{
   border-radius: 16px;
   width: 330px;
   height: 310px;
-  align-items: center;
+  agn-items: center;
   justify-content: center;
-  text-align: center;
+  text-agn: center;
   margin-left: 10%;
 
 }
@@ -233,9 +255,9 @@ li{
   height:50px;
   color: white;
   display: flex;
-  align-items:center;
+  agn-items:center;
   justify-content: center;
-  text-align: center;
+  text-agn: center;
   font-size: 20px;
   margin-left: 13%;
   margin-bottom: 2%;
@@ -247,9 +269,9 @@ li{
   height:50px;
   color: white;
   display: flex;
-  align-items:center;
+  agn-items:center;
   justify-content: center;
-  text-align: center;
+  text-agn: center;
   font-size: 20px;
   margin-left: 25%;
   margin-bottom: 2%;
@@ -261,9 +283,9 @@ li{
   height:50px;
   color: white;
   display: flex;
-  align-items:center;
+  agn-items:center;
   justify-content: center;
-  text-align: center;
+  text-agn: center;
   font-size: 20px;
 
   margin-bottom: 2%;
@@ -275,16 +297,16 @@ li{
   height:50px;
   color: white;
   display: flex;
-  align-items:center;
+  agn-items:center;
   justify-content: center;
-  text-align: center;
+  text-agn: center;
   font-size: 20px;
   margin-left: 20%;
   margin-bottom: 2%;
 }
 .img-company{
   display: flex;
-  align-items: center;
+  agn-items: center;
   justify-content: center;
   padding: 10px;
 
@@ -320,7 +342,7 @@ margin: 20px;
 }
 .container-all-img-1-2{
   display: flex;
-  align-items: center;
+  agn-items: center;
   justify-content: center;
 
 }
