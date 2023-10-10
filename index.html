@@ -36,10 +36,10 @@
 
 <div class="container-nav">
 
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: #f5f4ea!important;">
 
     <div class="container-header">
-      <div class="container-text-vashadze-1 "> დავით ვასშაძის <p class="text-center text-justify">ფიტო-ბალნეოთერაპიის ცენტრი</p>  </div>
+      <div class="container-text-vashadze"> <span class="container-first-text">დავით ვასშაძის </span> <span class="container-phito">ფიტო-ბალნეოთერაპიის ცენტრი</span> </div>
       <div class="container-logo"> <img src="img-c/logo.png" width="70px" alt=""> </div>
       <div class="container-text-vashadze"> <span class="container-first-text">DAVID VASHADZE</span> <span class="container-phito">PHYTO-BALNEOTHERAPY CENTER</span> </div>
     </div>
@@ -93,14 +93,25 @@
 </div>
 
 
+
+
 <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img class="d-block w-100" src="img-c/badroom.png" alt="First slide">
+      <!-- Добавляем текст на слайд вверху по центру -->
+      <div class="carousel-caption text-center" style="position: absolute; top: 0; left: 0;width: 100%;">
+        <div class="d-flex flex-column justify-content-start align-items-center">
+          <h1>ბუნება საუკეტესო მკურნალია</h1>
+          <p>დავით ვასშაძის ფიტო-ბალნეოთერაპიის ცენტრი</p>
+          <a href="#" class="btn btn-primary">დაგვიკავშირდით</a>
+        </div>
+      </div>
     </div>
-
   </div>
 </div>
+
+
 
 
 
@@ -111,11 +122,11 @@
 
 
 <div class="container">
-  <!-- Создание контейнера для блока -->
+
   <div class="row justify-content-center">
-    <!-- Использование justify-content-center для выравнивания по центру -->
+
     <div class="col-md-8">
-      <!-- Создание колонки (col-md-8) -->
+
       <p class="container-miz">მიზანია მკურნალობის ტრადიციული ხერხებისა და თანამედრო სამკურნალო კვლევითი ინსტრუმენტების გამოყენებით მომხმარებელს გავუზიოთ სამედიცინო მომსახურება.<br><br> ფიცო ბალნეოთერაპიის ცენტრში მკურნალობა ექიმ დავით ვაშაძის მიერ სპეციალურად შერჩეული მცენარეული ნაკრების გამოყენებით ხორციელდება.</p>
       <br><br>
       <a href="#" class="btn btn-primary btn-bottom-right">დაგვიკავშირდით</a>
@@ -124,44 +135,90 @@
 </div>
 
 
+<div class="container-cure">
 
-<div class="container">
-  <!-- Создание контейнера Bootstrap -->
   <div class="row">
-    <!-- Создание строки (row) внутри контейнера -->
+
     <div class="col-md-12">
-      <!-- Создание колонки (col-md-12) -->
+
       <div class="custom-block">
-        <!-- Добавление класса custom-block для стилизации блока -->
+
         <div class="custom-block-text">
-          <!-- Добавление класса custom-block-text для стилизации текста -->
+
           <h2 class="custom-block-title">დავით ვასშაძის</h2>
           <p class="custom-block-subtitle">ფიტო-ბალნეოთერაპიის ცენტრი</p>
         </div>
-        <img src="img-c/cure.png" alt="Изображение блока" class="img-fluid">
+        <div class="custom-block-text">
+
+          <h2 class="custom-block-title">DAVID VASHADZE</h2>
+          <p class="custom-block-subtitle">PHYTO-BALNEOTHERAPY CENTER</p>
+        </div>
+        <img src="img-c/cure.png" alt="Изображение блока" class="custom-block-img">
+
       </div>
     </div>
   </div>
 </div>
 
+<div class="container-h">
+  <h1 class="text-center">რას გთავაზობთ</h1>
+  <div class="line"></div>
+</div>
+
 <div class="container">
-  <!-- Создание контейнера для блока -->
-  <div class="row justify-content-center">
-    <!-- Создание строки (row) внутри контейнера и выравнивание по центру -->
-    <div class="col-md-6 text-center">
-      <!-- Создание колонки (col-md-6) и выравнивание текста по центру -->
-      <img src="img-c/medicine-box.png" width="300px" height="281px" alt="Изображение блока" class="dashed-border">
-      <h2>სერვისები</h2>
 
-      <a href="#" class="btn btn-primary">ნახე ყველა ></a>
+  <div class="row justify-content-center text-center">
+
+    <div class="col-md-4">
+
+      <div class="dashed-border">
+
+        <img src="img-c/medicine-box.png" width="230px" height="200px" alt="Изображение блока" class="custom-block-img">
+        <h2>სერვისები</h2>
+      </div>
+
+      <a href="#" class="btn custom-btn">ნახე ყველა ></a>
+
     </div>
-    <div class="col-md-6 text-center">
-      <!-- Создание второй колонки (col-md-6) и выравнивание текста по центру -->
 
-      <img src="img-c/findoscope.png" width="300px" alt="Изображение блока" class="dashed-border">
-      <h2>ექიმები</h2>
+    <div class="col-md-4">
 
-      <a href="#" class="btn btn-primary" width="300px!important">ნახე ყველა ></a>
+      <div class="dashed-border">
+
+        <img src="img-c/findoscope.png" width="230px" height="200px" alt="Изображение блока" class="custom-block-img">
+        <h2>ექიმები</h2>
+
+      </div>
+
+      <a href="#" class="btn custom-btn">ნახე ყველა ></a>
+
+    </div>
+  </div>
+</div>
+
+
+<div class="container-h">
+  <h1 class="text-center">ფასდაკლება</h1>
+  <div class="line"></div>
+</div>
+
+
+
+
+<div class="container">
+  <div class="row justify-content-center align-items-center">
+    <div class="col-md-4 text-center">
+      <div class="dashed-border-2">
+        <img src="img-c/mass.png" width="350px" height="280px" alt="Изображение блока" class="custom-block-img">
+      </div>
+      <a href="#" class="btn custom-btn-2">ლაბორატორიული კვლევა</a>
+
+    </div>
+    <div class="col-md-4 text-center">
+      <div class="dashed-border-2 ">
+        <img src="img-c/doc.png" width="350px" height="280px" alt="Изображение блока" class="custom-block-img">
+      </div>
+      <a href="#" class="btn custom-btn-2">ლაბორატორიული კვლევა</a>
 
     </div>
   </div>
@@ -169,8 +226,14 @@
 
 
 
+
+
+
+
+
+
+
 <script>
-// Example starter JavaScript for disabling form submissions if there are invalid fields
 (() => {
   'use strict'
 
