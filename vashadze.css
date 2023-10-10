@@ -9,7 +9,7 @@
   width: 100%;
   height: 40px;
   display: flex;
-  agn-items: center;
+  align-items: center;
 
 }
 
@@ -24,37 +24,12 @@
 }
 .container-header{
   display: flex;
-  agn-items: center;
+  align-items: center;
 
 }
 
-.navbar{
-  background-color: #f5f4ea!important;
-  border-radius: 16px!important;
 
-}
-.container-nav{
-  background: #f5f4ea!important;
-
-}
-.container-btn{
-  background:#425325;
-  border-radius: 15px;
-  color: white;
-  width: 200px;
-  height: 70px;
-  font-size: 12px;
-}
-.text-center {
-    position: absolute;
-    top: 30%;
-    left: 0%;
-    transform: translate(-50%, -50%);
-    padding: 20px;
-    color: white;
-    font-size: 40PX;
-}
- .container-convert{
+.container-convert{
   padding-left: 2%;
   display: flex;
   agn-items: center;
@@ -75,10 +50,6 @@
 
 }
 
-.container-ne{
-  width: 100%;
-  border: 1px sod #dcae69;
-}
 
 .container-phito{
   display: block;
@@ -91,7 +62,14 @@
   color: #425325;
   font-size: 25px;
 }
-
+.dashed-border{
+  border: 2px dashed #425325;
+  padding: 20px;
+  border-radius: 16px;
+}
+.container-miz{
+  padding-top: 20px;
+}
 .container-first-text1{
   color: white;
   font-size: 25px;
@@ -111,7 +89,7 @@
 
 li{
   padding: 5px;
-margin-left: 5;
+  margin-left: 5;
   color: #425325;
   font-weight: bolder;
 }
@@ -119,48 +97,8 @@ margin-left: 5;
   position: relative;
 }
 
-.text-center {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding: 20px;
-  color: white;
-  font-size: 40PX;
-}
-.text-center p{
-  padding: 5px;
-  font-weight: bold;
-
-}
-.text-center span{
-  font-size: 25px;
-}
-.btn {
-  background-color: #425325;
-  color: #ffffff;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  margin-top: 20px;
-  height: 50px;
-  width: 150px;
-  font-size: 18px;
-}
-.btn2{
-  background-color: inherit;
-  color: #425325;
-  padding: 10px 20px;
-  border-radius: 10px;
-  border: sod 2px  #425325;
-  cursor: pointer;
-  margin-top: 20px;
-  height: 50px;
-  width: 180px;
-  font-size: 18px;
-  margin-left: 74%;
-  margin-bottom: 2%;
+.container-vas{
+  text-align: center;
 
 }
 .container-language{
@@ -169,189 +107,65 @@ margin-left: 5;
 .container-language img{
   margin: 10px;
 }
-.container-text-d{
+.container-h h1{
+  text-align: center;
+  padding-top: 20px;
+  font-size: 28px;
   color: #425325;
-  font-size: 40px;
-  padding-left: 20%;
-  padding-top: 5%;
-}
-.container-ne2{
-  border: 1px sod #dcae69;
-  margin-left: 20%;
-  margin-right: 13%;
-  margin-top: 1%;
-  margin-bottom: 3%;
-}
-.container-text-1{
-  padding-left: 20%;
-  padding-right: 13%;
-  padding-bottom: 1%;
-  font-size: 18px;
+  width: 100%;
 
 }
-.container-cure{
-  display: flex;
-  agn-items: center;
-  justify-content: center;
+.line{
+  border: 1px solid #dbaf6f;
+  margin-left: 22%;
+  margin-right: 22%;
 
 }
-.container-img-cure img{
-  border-radius: 10px;
+.btn-bottom-right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
   margin: 10px;
+  justify-content: flex-end;
+  background-color: inherit!important;
+  color: #425325!important;
+  border-color: #425325!important;
+  border-radius: 5px!important;
 }
-.container-cure{
-  background-color: #425325;
-  border-radius: 5px;
-  margin-left: 20%;
-  margin-right: 13%;
-  margin-bottom: 1%;
-  height: 250px;
+.container h2{
+  color:  #425325!important;
+  font-weight: bold!important;
 }
-.container-service{
-  color:  #425325;
-  font-size: 30px;
+.custom-block {
+  display: flex;
+  align-items: center;
+  background-color: #435328;
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+  bottom: 10px;
+}
+
+
+.custom-block img {
+  width: 440px;
+}
+
+/* Стиль для текста в блоке */
+.custom-block-text {
+  flex-grow: 1;
+  text-align: center;
+}
+
+/* Стиль для заголовка */
+.custom-block-title h2 {
+  color: white!important;
+  font-size: 24px;
   font-weight: bold;
 }
-.cures-img{
-  display:flex;
-  agn-items: center;
-  justify-content: center;
-  padding: 20px;
 
-}
-.cures-img img{
-  padding: 20px;
-
-
-}
-.container-box-find{
-  padding-top: 5%;
-  border: 2px dashed #425325;
-  border-radius: 16px;
-  width: 330px;
-  height: 310px;
-  agn-items: center;
-  justify-content: center;
-  text-agn: center;
-  margin-left: 7%;
-
-}
-.container-box-find1{
-  padding-top: 5%;
-  border: 2px dashed #425325;
-  border-radius: 16px;
-  width: 330px;
-  height: 310px;
-  agn-items: center;
-  justify-content: center;
-  text-agn: center;
-  margin-left: 10%;
-
-}
-.container-yvela{
-  background: #425325;
-  border-radius: 22px;
-  width: 300px;
-  height:50px;
-  color: white;
-  display: flex;
-  agn-items:center;
-  justify-content: center;
-  text-agn: center;
-  font-size: 20px;
-  margin-left: 13%;
-  margin-bottom: 2%;
-}
-.container-yvela1{
-  background: #425325;
-  border-radius: 22px;
-  width: 300px;
-  height:50px;
-  color: white;
-  display: flex;
-  agn-items:center;
-  justify-content: center;
-  text-agn: center;
-  font-size: 20px;
-  margin-left: 25%;
-  margin-bottom: 2%;
-}
-.container-yvela3{
-  background: #425325;
-  border-radius: 22px;
-  width: 300px;
-  height:50px;
-  color: white;
-  display: flex;
-  agn-items:center;
-  justify-content: center;
-  text-agn: center;
-  font-size: 20px;
-
-  margin-bottom: 2%;
-}
-.container-yvela2{
-  background: #425325;
-  border-radius: 22px;
-  width: 300px;
-  height:50px;
-  color: white;
-  display: flex;
-  agn-items:center;
-  justify-content: center;
-  text-agn: center;
-  font-size: 20px;
-  margin-left: 20%;
-  margin-bottom: 2%;
-}
-.img-company{
-  display: flex;
-  agn-items: center;
-  justify-content: center;
-  padding: 10px;
-
-}
-.img-company img{
-width: 300px;
-border: 2px dashed #425325;
-border-radius: 16px;
-margin: 20px;
-}
-
-
-
-
-
-
-
-
-
-
-.container-everything{
-  display: flex;
-
-}
-.container-everything2{
-  display: flex;
-}
-.container-img2{
-  padding-left:10%;
-}
-.container-img1{
-  padding-left: 7%;
-}
-.container-all-img-1-2{
-  display: flex;
-  agn-items: center;
-  justify-content: center;
-
-}
-.container-all-img-1-2 img{
-  border: 2px dashed #425325;
-  padding: 5px;
-  border-radius: 16px;
-}
-.container-nav{
-
-  background-color: #425325;
+/* Стиль для подзаголовка */
+.custom-block-subtitle {
+  font-size: 18px;
+  font-style: italic;
 }
