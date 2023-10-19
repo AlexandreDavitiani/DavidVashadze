@@ -127,8 +127,15 @@ li{
   margin-left: 22%;
   margin-right: 22%;
   margin-bottom: 2%;
-
 }
+.line-2{
+  border: 1px solid #dbaf6f;
+width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+
 .btn-bottom-right {
   position: absolute;
   bottom: 0;
@@ -212,4 +219,14 @@ li{
   background: #425325!important;
   border-color: #425325!important;
   padding: 15px!important;
+}
+
+.container-color-1{
+  padding-top: 5%;
+  color: darkgreen;
+  font-size: 20px;
+}
+
+.davids-container{
+  padding-top: 5%;
 }
