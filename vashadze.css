@@ -130,7 +130,7 @@ li{
 }
 .line-2{
   border: 1px solid #dbaf6f;
-width: 100%;
+  width: 100%;
   display: flex;
   align-items: center;
 }
@@ -212,7 +212,7 @@ width: 100%;
   left: 0!important;
 }
 .banks-system{
-  margin-bottom: 5.1%;
+  margin-bottom: 5%;
 }
 
 .my-custom-button{
@@ -223,10 +223,227 @@ width: 100%;
 
 .container-color-1{
   padding-top: 5%;
-  color: darkgreen;
+
+  color: #425225;
   font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .davids-container{
   padding-top: 5%;
+}
+
+.container-all-cm1{
+  padding-top: 5%;
+}
+
+.davids-container {
+  text-align: center;
+}
+
+.dashed-border {
+  margin-top: 10px;
+  display: inline-block;
+  padding: 25px ;
+  border: 2px dashed #000;
+}
+
+/* .dashed-border img {
+width: 100%;
+height: 300px;
+
+
+} */
+
+.container-line33{
+  margin-top: 5%;
+  border: 1px solid #dbaf6f;
+  width: 75%;
+  margin-left: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.container-logo img{
+  width: 100%;
+  height: 75px;
+
+}
+nav {
+  background-color: #425325!important;
+}
+
+.conatiner-area{
+  background-color: #425325!important;
+
+}
+
+.container-e p{
+  color: white;
+  padding: 2px;
+
+}
+
+a{
+  text-decoration: none;
+}
+p.info a {
+  text-decoration: none;
+  color: white;
+}
+.m-all-p-container .menu li a {
+  text-decoration: none;
+  color: white;
+}
+
+.container-ev{
+  padding-top: 5%;
+}
+
+.container-alm-footer img{
+  width: 100px;
+  height: 90px;
+  margin-bottom: 20px;
+}
+
+.titl-for-nav{
+  color: white;
+}
+
+.container-line-44{
+  border: 1px solid gold;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+}
+
+.container-qs{
+  color: white;
+}
+
+
+.container-qs {
+  text-align: center;
+}
+
+.container-qs img {
+  margin: 5px;
+}
+.container-m-all-123 ul{
+  padding: 5px;
+}
+footer {
+  background-color:#374424;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.info img{
+  padding: 5px;
+}
+
+.m-all-p-container {
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+}
+
+.m-all-p-container:hover {
+  background-color: #425225;
+}
+
+.menu a {
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.menu a:hover {
+  color: #425225;
+}
+.dropdown-item {
+  color: black!important;
+  transition: color 0.3s ease !important;
+}
+
+.dropdown-item:hover {
+  background: #425225 !important;
+  color:yellow!important;
+  transition: color 0.5s ease !important;
+  border-radius: 5px;
+}
+
+
+.container-us{
+  border: 1px solid gold;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+}
+
+.flex-container p {
+  font-size: 20px;
+}
+ul li {
+  list-style: none;
+
+}
+a {
+  text-decoration: none!important;
+
+}
+
+.container-about-ch{
+  color:#425225;
+}
+.container-line-66{
+  width: 40%;
+  margin: 20px;
+  margin-left: 25%;
+  height: 1px;
+  background: #ddb06c;
+  position: absolute;
+  left: 0;
+}
+
+.container-u-ch{
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: bolder;
+  position: relative;
+  text-align: right;
+  padding-right: 20%;
+}
+
+.about-list ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: block;
+    text-align: right;
+}
+.container-list ul li {
+    position: relative;
+    display: inline-block;
+    padding: 10px 17px;
+    min-width: 260px;
+    font-size: 16px;
+}
+.container-list ul li:before {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 13px;
+    display: block;
+    border-radius: 5px;
+    z-index: 1;
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 900;
+    color: #ddb06c;
 }

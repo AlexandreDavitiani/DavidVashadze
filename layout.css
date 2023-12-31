@@ -22,6 +22,7 @@
   .custom-block img{
     width: 100%;
   }
+
 }
 
 @media (max-width: 991.98px) {
@@ -33,3 +34,47 @@
     width: 100%;
   }
 }
+
+@media (max-width: 400px) {
+.dashed-border-2 img{
+  width: 100%;
+}
+}
+
+@media (max-width: 768px) {
+      .container-u-ch {
+        text-align: right;
+          padding-right: 10%;
+      }
+
+      .container-line-66 {
+        width: 40%;
+        margin-left: 10%;
+      }
+    }
+
+
+
+    @media (max-width: 1280px) {
+          .container-u-ch {
+            text-align: right;
+              padding-right: 10%;
+          }
+
+          .container-line-66 {
+            width: 40%;
+            margin-left: 10%;
+          }
+        }
+
+        @media (max-width: 450px) {
+              .container-u-ch {
+                text-align: right;
+                  padding-right: 7%;
+              }
+
+              .container-line-66 {
+                width: 30%;
+                margin-left: 10%;
+              }
+            }
